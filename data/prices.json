@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:34:25.857078+00:00",
+  "generated_at": "2026-07-06T11:28:42.874624+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -89,7 +89,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 3.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -164,7 +164,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "tomates",
-      "prix": 174.5
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,12 +179,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 10.49
+      "prix": 26.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 64.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
