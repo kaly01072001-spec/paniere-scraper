@@ -144,6 +144,34 @@ CONFIG_ENSEIGNES = [
 DELAI_ENTRE_REQUETES_SEC = 3
 
 
+_compteur_debug: dict[str, int] = {}
+MAX_CAPTURES_DEBUG_PAR_ENSEIGNE = 2
+
+
+async def sauvegarder_debug(page: Page, enseigne: str, produit_id: str):
+    """
+    Sauvegarde une capture d'écran + le HTML de la page quand l'extraction
+    échoue, pour comprendre pourquoi (blocage anti-bot, CAPTCHA, cookies non
+    acceptés, structure de page changée...). Limité à quelques captures par
+    enseigne pour ne pas saturer l'espace de stockage des logs GitHub Actions.
+    """
+    compte = _compteur_debug.get(enseigne, 0)
+    if compte >= MAX_CAPTURES_DEBUG_PAR_ENSEIGNE:
+        return
+    _compteur_debug[enseigne] = compte + 1
+
+    dossier = Path(__file__).parent / "debug"
+    dossier.mkdir(exist_ok=True)
+
+    base = dossier / f"{enseigne}-{produit_id}-{compte}"
+    try:
+        await page.screenshot(path=str(base) + ".png", full_page=True)
+        (base.with_suffix(".html")).write_text(await page.content(), encoding="utf-8")
+        print(f"  [debug] Capture sauvegardée : {base}.png / .html")
+    except Exception as e:
+        print(f"  [debug] Impossible de sauvegarder la capture : {e}")
+
+
 def nettoyer_prix(texte_prix: str) -> float | None:
     if not texte_prix:
         return None
@@ -209,6 +237,7 @@ async def scraper_produit_leclerc(page: Page, config: dict, produit: dict) -> fl
     )
     if not match:
         print(f"  [!] Bloc JSON produits introuvable pour '{produit['nom']}' (structure de page changée ?)")
+        await sauvegarder_debug(page, "leclerc", produit["id"])
         return None
 
     try:
@@ -249,6 +278,7 @@ async def scraper_produit_lidl(page: Page, config: dict, produit: dict) -> float
         await page.wait_for_selector('li[id^="grid-item-"]', timeout=10000)
     except PWTimeout:
         print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Lidl")
+        await sauvegarder_debug(page, "lidl", produit["id"])
         return None
 
     cartes = await page.query_selector_all('li[id^="grid-item-"]')
@@ -282,6 +312,7 @@ async def scraper_produit_intermarche(page: Page, config: dict, produit: dict) -
         await page.wait_for_selector('div[id^="stime-product-item-"]', timeout=10000)
     except PWTimeout:
         print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Intermarché")
+        await sauvegarder_debug(page, "intermarche", produit["id"])
         return None
 
     cartes = await page.query_selector_all('div[id^="stime-product-item-"]')
@@ -322,6 +353,7 @@ async def scraper_produit_carrefour(page: Page, config: dict, produit: dict) -> 
         await page.wait_for_selector("li.product-list-grid__item", timeout=10000)
     except PWTimeout:
         print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Carrefour")
+        await sauvegarder_debug(page, "carrefour", produit["id"])
         return None
 
     cartes = await page.query_selector_all("li.product-list-grid__item")
