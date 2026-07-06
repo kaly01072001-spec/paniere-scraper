@@ -104,8 +104,33 @@ PRODUITS = [
 
 CONFIG_ENSEIGNES = [
     {
+        "magasin_id": "leclerc-loos",
+        "enseigne": "Leclerc",
+        "methode": "leclerc_json",
+        "url_recherche": "https://fd6-courses.leclercdrive.fr/magasin-175902-175902-Loos-Lez-Lille/recherche.aspx?TexteRecherche={produit}",
+    },
+    {
+        "magasin_id": "lidl-loos",
+        "enseigne": "Lidl",
+        "methode": "lidl_html",
+        "url_recherche": "https://www.lidl.fr/q/search?q={produit}",  # À VÉRIFIER si ça ne marche pas du premier coup
+    },
+    {
+        "magasin_id": "intermarche-lomme",
+        "enseigne": "Intermarché",
+        "methode": "intermarche_html",
+        "url_recherche": "https://www.intermarche.com/recherche?text={produit}",  # À VÉRIFIER
+    },
+    {
+        "magasin_id": "carrefour-lille",
+        "enseigne": "Carrefour",
+        "methode": "carrefour_html",
+        "url_recherche": "https://www.carrefour.fr/s?q={produit}",  # À VÉRIFIER
+    },
+    {
         "magasin_id": "auchan-va",
         "enseigne": "Auchan",
+        "methode": "css",
         "url_recherche": "https://www.auchan.fr/recherche?text={produit}",  # À VÉRIFIER
         "code_postal_magasin": "59650",
         "selecteur_carte_produit": ".product-thumbnail",       # À REMPLIR
@@ -114,7 +139,6 @@ CONFIG_ENSEIGNES = [
         "selecteur_selection_magasin": "#store-picker",        # À REMPLIR
     },
     # Ajoute une entrée par magasin/enseigne ciblé, sur le même modèle.
-    # Duplique ce bloc autant de fois que nécessaire.
 ]
 
 DELAI_ENTRE_REQUETES_SEC = 3
@@ -130,6 +154,8 @@ def nettoyer_prix(texte_prix: str) -> float | None:
 
 
 async def selectionner_magasin(page: Page, config: dict) -> bool:
+    if config.get("methode") in ("leclerc_json", "lidl_html", "intermarche_html", "carrefour_html"):
+        return True  # pas de sélection de magasin nécessaire pour ces méthodes pour l'instant
     try:
         await page.click(config["selecteur_selection_magasin"], timeout=5000)
         await page.fill("input[type='text']", config["code_postal_magasin"])
@@ -161,6 +187,163 @@ async def scraper_produit(page: Page, config: dict, produit: dict) -> float | No
     return nettoyer_prix(prix_brut)
 
 
+async def scraper_produit_leclerc(page: Page, config: dict, produit: dict) -> float | None:
+    """
+    Extraction spécifique Leclerc Drive : les données produits sont embarquées
+    en JSON directement dans le code source de la page (pas besoin de sélecteurs
+    CSS fragiles). On extrait ce bloc JSON par expression régulière, puis on
+    prend le prix ramené à l'unité de mesure (par litre/kg) du premier résultat
+    pertinent, ce qui permet de comparer des conditionnements différents
+    (ex: bouteille de 1L vs pack de 6x1L) sur une base commune.
+    """
+    url = config["url_recherche"].format(produit=produit["nom"].replace(" ", "+"))
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=15000)
+    except PWTimeout:
+        return None
+
+    contenu = await page.content()
+    match = re.search(
+        r"pnlElementProduit',\s*(\{.*?\})\);\s*Utilitaires\.widget\.initOptions\('ctl00_ctl00_mainMutiUnivers_main_ctl05",
+        contenu, re.DOTALL
+    )
+    if not match:
+        print(f"  [!] Bloc JSON produits introuvable pour '{produit['nom']}' (structure de page changée ?)")
+        return None
+
+    try:
+        data = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        print(f"  [!] JSON invalide pour '{produit['nom']}'")
+        return None
+
+    elements = data.get("objContenu", {}).get("lstElements", [])
+    if not elements:
+        return None
+
+    # On écarte les variantes bio/sans lactose/etc. pour rester sur le produit
+    # générique de base, et on prend le premier résultat "standard" restant.
+    mots_a_exclure = ["bio", "sans lactose", "chèvre", "concentré", "poudre"]
+    for el in elements:
+        obj = el.get("objElement", {})
+        nom_complet = f"{obj.get('sLibelleLigne1','')} {obj.get('sLibelleLigne2','')}".lower()
+        if any(mot in nom_complet for mot in mots_a_exclure):
+            continue
+
+        prix_unite = obj.get("nrPVMesureBRIIDeduit") or obj.get("nrPVParUniteDeMesureTTC")
+        if prix_unite is not None:
+            return round(float(prix_unite), 2)
+
+    return None
+
+
+async def scraper_produit_lidl(page: Page, config: dict, produit: dict) -> float | None:
+    """
+    Extraction spécifique Lidl : chaque résultat est un <li id="grid-item-...">
+    contenant un lien <a class="odsc-tile__link"> dont le texte visible est du
+    type "Nom du produit pour 1.2 EUR" — le prix est écrit dans la phrase elle-même.
+    """
+    url = config["url_recherche"].format(produit=produit["nom"].replace(" ", "+"))
+    try:
+        await page.goto(url, wait_until="networkidle", timeout=20000)
+        await page.wait_for_selector('li[id^="grid-item-"]', timeout=10000)
+    except PWTimeout:
+        print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Lidl")
+        return None
+
+    cartes = await page.query_selector_all('li[id^="grid-item-"]')
+    for carte in cartes:
+        lien = await carte.query_selector("a.odsc-tile__link")
+        if not lien:
+            continue
+
+        texte = (await lien.inner_text()).strip()
+        # On écarte les variantes bio/sans lactose pour rester sur le produit générique
+        if any(mot in texte.lower() for mot in ["bio", "sans lactose", "chèvre"]):
+            continue
+
+        match = re.search(r"pour\s+(\d+)[.,](\d+)\s*EUR", texte, re.IGNORECASE)
+        if match:
+            return float(f"{match.group(1)}.{match.group(2)}")
+
+    return None
+
+
+async def scraper_produit_intermarche(page: Page, config: dict, produit: dict) -> float | None:
+    """
+    Extraction spécifique Intermarché : chaque produit est dans un bloc
+    <div id="stime-product-item-N">. Le nom est déduit de l'URL du produit
+    (ex: /produit/lait-demi-ecreme-sterilise-uht/... -> "lait demi ecreme...")
+    et le prix est dans un <p class="... text-title2 ...">.
+    """
+    url = config["url_recherche"].format(produit=produit["nom"].replace(" ", "+"))
+    try:
+        await page.goto(url, wait_until="networkidle", timeout=20000)
+        await page.wait_for_selector('div[id^="stime-product-item-"]', timeout=10000)
+    except PWTimeout:
+        print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Intermarché")
+        return None
+
+    cartes = await page.query_selector_all('div[id^="stime-product-item-"]')
+    for carte in cartes:
+        lien = await carte.query_selector('a[href^="/produit/"]')
+        if not lien:
+            continue
+        href = await lien.get_attribute("href")
+        nom_slug = href.split("/produit/")[1].split("/")[0].replace("-", " ") if href else ""
+
+        if any(mot in nom_slug.lower() for mot in ["bio", "sans-lactose", "chevre"]):
+            continue
+
+        prix_el = await carte.query_selector("p.text-title2")
+        if not prix_el:
+            continue
+
+        texte_prix = (await prix_el.inner_text()).strip()
+        prix = nettoyer_prix(texte_prix)
+        if prix is not None:
+            return prix
+
+    return None
+
+
+async def scraper_produit_carrefour(page: Page, config: dict, produit: dict) -> float | None:
+    """
+    Extraction spécifique Carrefour : chaque produit est dans un
+    <li class="product-list-grid__item"><article>. Le nom complet est dans
+    l'attribut alt de l'image produit. Le prix est découpé en plusieurs
+    <p class="product-price__content"> à l'intérieur d'un conteneur
+    data-testid="product-price__amount--main" (partie entière, décimales, €
+    dans des balises séparées) : on concatène leur texte et on extrait le nombre.
+    """
+    url = config["url_recherche"].format(produit=produit["nom"].replace(" ", "+"))
+    try:
+        await page.goto(url, wait_until="networkidle", timeout=20000)
+        await page.wait_for_selector("li.product-list-grid__item", timeout=10000)
+    except PWTimeout:
+        print(f"  [!] Aucun résultat chargé pour '{produit['nom']}' chez Carrefour")
+        return None
+
+    cartes = await page.query_selector_all("li.product-list-grid__item")
+    for carte in cartes:
+        img = await carte.query_selector("img[alt]")
+        nom = (await img.get_attribute("alt")) if img else ""
+
+        if any(mot in nom.lower() for mot in ["bio", "sans lactose", "chèvre"]):
+            continue
+
+        prix_container = await carte.query_selector('div[data-testid="product-price__amount--main"]')
+        if not prix_container:
+            continue
+
+        texte_prix = re.sub(r"\s+", "", await prix_container.inner_text())
+        prix = nettoyer_prix(texte_prix)
+        if prix is not None:
+            return prix
+
+    return None
+
+
 async def scraper_config(page: Page, config: dict) -> list[dict]:
     print(f"\n[{config['enseigne']}] Magasin : {config['magasin_id']}")
     resultats = []
@@ -170,7 +353,17 @@ async def scraper_config(page: Page, config: dict) -> list[dict]:
         return resultats
 
     for produit in PRODUITS:
-        prix = await scraper_produit(page, config, produit)
+        if config.get("methode") == "leclerc_json":
+            prix = await scraper_produit_leclerc(page, config, produit)
+        elif config.get("methode") == "lidl_html":
+            prix = await scraper_produit_lidl(page, config, produit)
+        elif config.get("methode") == "intermarche_html":
+            prix = await scraper_produit_intermarche(page, config, produit)
+        elif config.get("methode") == "carrefour_html":
+            prix = await scraper_produit_carrefour(page, config, produit)
+        else:
+            prix = await scraper_produit(page, config, produit)
+
         if prix is not None:
             resultats.append({
                 "magasin_id": config["magasin_id"],
