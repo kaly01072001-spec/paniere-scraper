@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:28:42.874624+00:00",
+  "generated_at": "2026-07-07T12:57:08.020634+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 11.99
+      "prix": 7.79
     },
     {
       "magasin_id": "lidl-loos",
@@ -54,7 +54,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-penne",
-      "prix": 19.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -73,11 +73,6 @@
     },
     {
       "magasin_id": "lidl-loos",
-      "produit_id": "huile-olive",
-      "prix": 8.89
-    },
-    {
-      "magasin_id": "lidl-loos",
       "produit_id": "sel",
       "prix": 29.99
     },
@@ -89,7 +84,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 1.49
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,12 +174,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 26.99
+      "prix": 10.49
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 4.99
+      "prix": 64.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,7 +189,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 10.99
+      "prix": 21.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -214,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poulet",
-      "prix": 2.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -234,7 +229,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lardons",
-      "prix": 22.5
+      "prix": 1.75
     },
     {
       "magasin_id": "lidl-loos",
@@ -254,7 +249,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 22.5
+      "prix": 2.49
     },
     {
       "magasin_id": "lidl-loos",
