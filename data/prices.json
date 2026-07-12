@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-07-11T09:10:39.736576+00:00",
+  "generated_at": "2026-07-12T10:06:55.689979+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-demi",
-      "prix": 79.99
+      "prix": 0.59
+    },
+    {
+      "magasin_id": "lidl-loos",
+      "produit_id": "lait-entier",
+      "prix": 4.19
     },
     {
       "magasin_id": "lidl-loos",
@@ -39,7 +44,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "creme",
-      "prix": 4.29
+      "prix": 69.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,7 +54,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-penne",
-      "prix": 19.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -69,7 +74,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "huile-olive",
-      "prix": 79.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -114,7 +119,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "the",
-      "prix": 4.29
+      "prix": 79.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 1.76
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -149,7 +154,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 55.99
+      "prix": 174.5
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,7 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 7.69
+      "prix": 10.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,7 +194,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 12.99
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,7 +204,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 68.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +214,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poulet",
-      "prix": 2.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,17 +264,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 3.14
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "pizza-surg",
-      "prix": 7.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "glace",
-      "prix": 4.29
+      "prix": 10.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -304,7 +304,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lessive",
-      "prix": 9.32
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
