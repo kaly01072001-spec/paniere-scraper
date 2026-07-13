@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T10:06:55.689979+00:00",
+  "generated_at": "2026-07-13T13:02:03.262293+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -14,7 +14,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "yaourt-nat",
-      "prix": 1.65
+      "prix": 2.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 10.49
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -73,13 +73,8 @@
     },
     {
       "magasin_id": "lidl-loos",
-      "produit_id": "huile-olive",
-      "prix": 9.99
-    },
-    {
-      "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 5.99
+      "prix": 42.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -99,7 +94,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 10.49
+      "prix": 1.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -129,7 +124,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "biscuits",
-      "prix": 3.14
+      "prix": 1.75
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +134,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 4.99
+      "prix": 32.7
     },
     {
       "magasin_id": "lidl-loos",
@@ -165,11 +160,6 @@
       "magasin_id": "lidl-loos",
       "produit_id": "tomates",
       "prix": 174.5
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "pommes",
-      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -200,11 +190,6 @@
       "magasin_id": "lidl-loos",
       "produit_id": "citrons",
       "prix": 19.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "courgettes",
-      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -264,7 +249,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 4.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +279,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "papier-wc",
-      "prix": 4.99
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
