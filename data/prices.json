@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T09:54:46.743508+00:00",
+  "generated_at": "2026-07-26T06:02:08.802560+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-demi",
-      "prix": 14.99
+      "prix": 0.35
     },
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 11.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -89,12 +89,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 1.05
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lentilles",
-      "prix": 19.99
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,7 +134,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 0.3
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,7 +199,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 1.19
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -214,7 +214,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poivrons",
-      "prix": 14.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -239,7 +239,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lardons",
-      "prix": 4.49
+      "prix": 12.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -264,7 +264,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 39.99
+      "prix": 64.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 1.59
+      "prix": 69.99
     },
     {
       "magasin_id": "lidl-loos",
