@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:58:38.070348+00:00",
+  "generated_at": "2026-08-02T05:57:33.388091+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -39,7 +39,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-rape",
-      "prix": 29.99
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -54,7 +54,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-penne",
-      "prix": 14.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -79,7 +79,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 49.99
+      "prix": 37.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,17 +174,17 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 37.99
+      "prix": 6.49
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 1.1
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 11.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -204,12 +204,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "citrons",
-      "prix": 14.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 1.1
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -224,7 +224,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "steak-hache",
-      "prix": 28.99
+      "prix": 13.99
     },
     {
       "magasin_id": "lidl-loos",
