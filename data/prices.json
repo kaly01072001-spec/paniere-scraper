@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T05:35:28.429743+00:00",
+  "generated_at": "2026-08-05T05:35:41.261086+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -14,7 +14,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "yaourt-nat",
-      "prix": 2.59
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -79,7 +79,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 37.99
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -168,13 +168,8 @@
     },
     {
       "magasin_id": "lidl-loos",
-      "produit_id": "tomates",
-      "prix": 1.49
-    },
-    {
-      "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 37.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -229,7 +224,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 11.99
+      "prix": 7.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -239,7 +234,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lardons",
-      "prix": 26.99
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -279,7 +274,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "glace",
-      "prix": 19.99
+      "prix": 1.19
     },
     {
       "magasin_id": "lidl-loos",
@@ -289,7 +284,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jus-orange",
-      "prix": 25.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -304,7 +299,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "papier-wc",
-      "prix": 0.99
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -319,7 +314,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dentifrice",
-      "prix": 11.99
+      "prix": 31.99
     },
     {
       "magasin_id": "lidl-loos",
