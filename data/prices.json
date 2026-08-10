@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T04:04:47.450024+00:00",
+  "generated_at": "2026-08-10T04:24:06.174842+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 39.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -39,7 +39,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-rape",
-      "prix": 49.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,7 +49,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 49.99
+      "prix": 0.39
     },
     {
       "magasin_id": "lidl-loos",
@@ -79,7 +79,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 49.99
+      "prix": 17.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -104,12 +104,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 9.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 49.99
+      "prix": 59.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 19.99
+      "prix": 26.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -169,7 +169,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "tomates",
-      "prix": 49.99
+      "prix": 0.82
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,7 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 49.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 24.99
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -229,7 +229,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 0.65
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -254,7 +254,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cabillaud",
-      "prix": 11.99
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -284,7 +284,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "eau",
-      "prix": 0.47
+      "prix": 69.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 1.99
+      "prix": 49.99
     }
   ]
 }
