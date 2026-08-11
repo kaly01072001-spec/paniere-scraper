@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:24:06.174842+00:00",
+  "generated_at": "2026-08-11T04:06:45.778285+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -39,7 +39,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-rape",
-      "prix": 29.99
+      "prix": 0.65
     },
     {
       "magasin_id": "lidl-loos",
@@ -109,7 +109,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 59.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 26.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,12 +194,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 0.39
+      "prix": 1.67
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 1.74
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 5.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -229,7 +229,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 49.99
+      "prix": 0.65
     },
     {
       "magasin_id": "lidl-loos",
@@ -244,7 +244,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dinde",
-      "prix": 11.99
+      "prix": 49.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -254,7 +254,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cabillaud",
-      "prix": 49.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -279,7 +279,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "glace",
-      "prix": 2.25
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -289,7 +289,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jus-orange",
-      "prix": 3.63
+      "prix": 1.05
     },
     {
       "magasin_id": "lidl-loos",
