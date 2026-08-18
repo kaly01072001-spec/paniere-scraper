@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T03:33:07.905871+00:00",
+  "generated_at": "2026-08-18T03:28:06.423760+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 64.89
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -94,7 +94,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lentilles",
-      "prix": 0.82
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -104,12 +104,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 8.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 64.89
+      "prix": 12.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,7 +134,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 64.89
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -169,7 +169,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "tomates",
-      "prix": 0.82
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,7 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 6.99
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,7 +189,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 2.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,17 +199,17 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 6.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "citrons",
-      "prix": 14.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 1.67
+      "prix": 179.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -219,12 +219,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poulet",
-      "prix": 15.99
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "steak-hache",
-      "prix": 89.99
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,12 +259,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 1.67
+      "prix": 64.89
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 4.99
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 12.49
+      "prix": 69.99
     },
     {
       "magasin_id": "lidl-loos",
