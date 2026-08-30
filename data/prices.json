@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:05:30.605626+00:00",
+  "generated_at": "2026-08-30T08:20:18.709102+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -9,7 +9,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-entier",
-      "prix": 39.99
+      "prix": 43.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -84,7 +84,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "farine",
-      "prix": 24.99
+      "prix": 43.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -94,7 +94,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lentilles",
-      "prix": 7.99
+      "prix": 13.89
     },
     {
       "magasin_id": "lidl-loos",
@@ -104,7 +104,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 9.99
+      "prix": 43.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -114,7 +114,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-moulu",
-      "prix": 59.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -149,7 +149,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "baguette",
-      "prix": 0.35
+      "prix": 0.71
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,7 +174,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 164.99
+      "prix": 179.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,7 +189,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 19.99
+      "prix": 43.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 164.99
+      "prix": 179.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -244,12 +244,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dinde",
-      "prix": 11.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saumon",
-      "prix": 11.99
+      "prix": 64.89
     },
     {
       "magasin_id": "lidl-loos",
@@ -274,7 +274,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pizza-surg",
-      "prix": 7.99
+      "prix": 2.62
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 14.99
+      "prix": 43.99
     },
     {
       "magasin_id": "lidl-loos",
