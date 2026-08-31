@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-08-30T08:20:18.709102+00:00",
+  "generated_at": "2026-08-31T08:33:25.979757+00:00",
   "prices": [
+    {
+      "magasin_id": "leclerc-loos",
+      "produit_id": "lessive",
+      "prix": 2.39
+    },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-demi",
@@ -18,11 +23,6 @@
     },
     {
       "magasin_id": "lidl-loos",
-      "produit_id": "yaourt-fru",
-      "prix": 2.49
-    },
-    {
-      "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
       "prix": 19.99
     },
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 9.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,12 +49,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-penne",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -74,7 +74,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "huile-olive",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -89,7 +89,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -109,7 +109,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 59.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -124,17 +124,17 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 11.99
+      "prix": 64.89
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "biscuits",
-      "prix": 7.99
+      "prix": 27.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -169,12 +169,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "tomates",
-      "prix": 59.99
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 179.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -184,12 +184,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 34.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 43.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,7 +199,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 7.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 179.99
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -219,7 +219,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poulet",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -244,12 +244,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dinde",
-      "prix": 9.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saumon",
-      "prix": 64.89
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,7 +259,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 6.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 43.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -309,7 +309,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "vaisselle",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 34.99
+      "prix": 80.99
     }
   ]
 }
