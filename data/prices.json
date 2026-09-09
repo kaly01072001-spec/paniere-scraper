@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:24:23.892922+00:00",
+  "generated_at": "2026-09-09T07:33:30.513275+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 18.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -44,7 +44,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "creme",
-      "prix": 104.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -69,7 +69,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "huile-tour",
-      "prix": 7.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -119,12 +119,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "the",
-      "prix": 79.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 64.89
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -154,7 +154,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 1.11
+      "prix": 5.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,7 +174,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 1.11
+      "prix": 164.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -184,7 +184,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 1.11
+      "prix": 14.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 1.11
+      "prix": 164.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -219,7 +219,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poulet",
-      "prix": 44.99
+      "prix": 1.11
     },
     {
       "magasin_id": "lidl-loos",
@@ -319,12 +319,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dentifrice",
-      "prix": 5.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 4.99
+      "prix": 5.79
     }
   ]
 }
