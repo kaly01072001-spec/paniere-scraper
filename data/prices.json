@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:32:13.083382+00:00",
+  "generated_at": "2026-09-19T07:30:59.391469+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 0.38
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,7 +49,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 29.99
+      "prix": 0.38
     },
     {
       "magasin_id": "lidl-loos",
@@ -114,7 +114,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-moulu",
-      "prix": 64.89
+      "prix": 7.11
     },
     {
       "magasin_id": "lidl-loos",
@@ -124,7 +124,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 64.89
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,12 +134,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 0.3
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 26.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -149,12 +149,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "baguette",
-      "prix": 0.35
+      "prix": 0.71
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 1.32
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,7 +199,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 57.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -224,12 +224,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "steak-hache",
-      "prix": 10.99
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 1.49
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -239,7 +239,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lardons",
-      "prix": 26.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,7 +259,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 3.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -284,12 +284,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "eau",
-      "prix": 0.47
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jus-orange",
-      "prix": 1.05
+      "prix": 1.85
     },
     {
       "magasin_id": "lidl-loos",
