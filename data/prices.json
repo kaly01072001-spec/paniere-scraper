@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:30:59.391469+00:00",
+  "generated_at": "2026-09-20T07:55:19.791721+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 64.89
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -44,7 +44,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "creme",
-      "prix": 89.99
+      "prix": 99.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -144,7 +144,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-mie",
-      "prix": 1.69
+      "prix": 2.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -154,12 +154,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 19.99
+      "prix": 1.32
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 24.99
+      "prix": 0.38
     },
     {
       "magasin_id": "lidl-loos",
@@ -184,7 +184,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 7.99
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,7 +259,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 34.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 80.99
+      "prix": 7.99
     }
   ]
 }
