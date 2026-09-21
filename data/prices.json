@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:55:19.791721+00:00",
+  "generated_at": "2026-09-21T08:05:38.216802+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 34.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -109,27 +109,27 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 29.99
+      "prix": 59.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-moulu",
-      "prix": 7.11
+      "prix": 7.14
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "the",
-      "prix": 24.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 11.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "biscuits",
-      "prix": 1.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -184,7 +184,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 3.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -229,7 +229,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 24.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -249,12 +249,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saumon",
-      "prix": 11.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cabillaud",
-      "prix": 11.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -314,7 +314,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lessive",
-      "prix": 15.55
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 7.99
+      "prix": 0.51
     }
   ]
 }
