@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:30:26.099306+00:00",
+  "generated_at": "2026-09-26T07:31:06.188292+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -14,7 +14,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "yaourt-nat",
-      "prix": 1.91
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 64.89
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,7 +49,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 1.96
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -249,7 +249,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saumon",
-      "prix": 11.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -264,7 +264,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 2.39
+      "prix": 35.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 0.51
+      "prix": 82.99
     }
   ]
 }
