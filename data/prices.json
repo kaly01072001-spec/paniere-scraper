@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:31:06.188292+00:00",
+  "generated_at": "2026-09-27T07:59:43.107754+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -14,7 +14,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "yaourt-nat",
-      "prix": 11.99
+      "prix": 1.91
     },
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 16.99
+      "prix": 64.89
     },
     {
       "magasin_id": "lidl-loos",
@@ -39,7 +39,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-rape",
-      "prix": 29.99
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -49,7 +49,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 29.99
+      "prix": 0.38
     },
     {
       "magasin_id": "lidl-loos",
@@ -109,7 +109,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 49.99
+      "prix": 12.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -124,7 +124,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 11.99
+      "prix": 1.11
     },
     {
       "magasin_id": "lidl-loos",
@@ -159,7 +159,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 0.38
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,7 +194,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 39.99
+      "prix": 27.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -229,7 +229,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "jambon",
-      "prix": 29.99
+      "prix": 1.5
     },
     {
       "magasin_id": "lidl-loos",
@@ -254,7 +254,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cabillaud",
-      "prix": 11.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
