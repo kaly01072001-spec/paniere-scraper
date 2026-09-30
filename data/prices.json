@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:20:41.923385+00:00",
+  "generated_at": "2026-09-30T08:22:28.953371+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 19.99
+      "prix": 8.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -89,7 +89,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 19.99
+      "prix": 8.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -129,7 +129,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "biscuits",
-      "prix": 2.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,7 +174,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 169.99
+      "prix": 0.58
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,12 +189,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 29.99
+      "prix": 0.58
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 6.99
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -239,7 +239,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lardons",
-      "prix": 3.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,7 +259,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 3.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 11.99
+      "prix": 8.99
     },
     {
       "magasin_id": "lidl-loos",
