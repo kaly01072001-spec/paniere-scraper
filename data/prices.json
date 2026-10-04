@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:57:20.941967+00:00",
+  "generated_at": "2026-10-04T08:14:40.475794+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -59,7 +59,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-spag",
-      "prix": 8.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -84,12 +84,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "farine",
-      "prix": 11.99
+      "prix": 8.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sauce-tomate",
-      "prix": 8.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -99,12 +99,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 54.99
+      "prix": 8.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 8.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,22 +194,22 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 27.99
+      "prix": 41.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 7.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "citrons",
-      "prix": 8.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 11.99
+      "prix": 199.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -269,7 +269,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 27.99
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
