@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T08:34:44.887598+00:00",
+  "generated_at": "2026-10-06T08:58:35.339609+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-demi",
-      "prix": 4.99
+      "prix": 14.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "lait-entier",
-      "prix": 27.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -74,12 +74,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "huile-olive",
-      "prix": 4.52
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 9.99
+      "prix": 21.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -99,7 +99,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 8.99
+      "prix": 54.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -119,7 +119,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "the",
-      "prix": 29.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -154,7 +154,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 9.99
+      "prix": 1.3
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,7 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 0.58
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,7 +189,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 0.58
+      "prix": 27.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -199,7 +199,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 9.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -259,12 +259,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "crevettes",
-      "prix": 16.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 69.99
+      "prix": 35.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -294,7 +294,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "soda",
-      "prix": 27.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
