@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:41:08.235282+00:00",
+  "generated_at": "2026-10-12T08:58:01.348923+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -19,7 +19,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "yaourt-fru",
-      "prix": 5.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -29,7 +29,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-sel",
-      "prix": 5.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -109,7 +109,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "confiture",
-      "prix": 49.99
+      "prix": 27.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -124,17 +124,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 34.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "biscuits",
       "prix": 7.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "cereales",
-      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -159,12 +154,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 34.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "brioche",
-      "prix": 24.99
+      "prix": 13.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -184,17 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 1.69
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "oignons",
-      "prix": 27.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "carottes",
-      "prix": 27.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -205,11 +190,6 @@
       "magasin_id": "lidl-loos",
       "produit_id": "citrons",
       "prix": 19.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "courgettes",
-      "prix": 159.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -224,21 +204,11 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "steak-hache",
-      "prix": 24.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "jambon",
-      "prix": 3.99
+      "prix": 29.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saucisses",
-      "prix": 11.99
-    },
-    {
-      "magasin_id": "lidl-loos",
-      "produit_id": "lardons",
       "prix": 11.99
     },
     {
@@ -269,7 +239,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 5.99
+      "prix": 4.99
     },
     {
       "magasin_id": "lidl-loos",
