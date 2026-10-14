@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:23:33.593008+00:00",
+  "generated_at": "2026-10-14T07:34:19.402130+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 49.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -104,7 +104,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 27.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -124,7 +124,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "chocolat-pdr",
-      "prix": 29.99
+      "prix": 16.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 244.99
+      "prix": 274.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -149,12 +149,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "baguette",
-      "prix": 0.59
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 0.42
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,12 +174,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 1.15
+      "prix": 2.3
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 4.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,7 +189,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 27.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
