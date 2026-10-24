@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:23:22.819928+00:00",
+  "generated_at": "2026-10-24T07:20:51.011102+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 9.99
+      "prix": 3.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -304,7 +304,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "papier-wc",
-      "prix": 24.99
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -319,7 +319,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dentifrice",
-      "prix": 19.99
+      "prix": 18.99
     },
     {
       "magasin_id": "lidl-loos",
