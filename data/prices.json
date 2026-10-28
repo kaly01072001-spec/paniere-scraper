@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:40:45.897141+00:00",
+  "generated_at": "2026-10-28T08:24:25.141836+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -99,12 +99,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 6.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 11.99
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,7 +134,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 0.98
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -159,7 +159,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 14.99
+      "prix": 493.88
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,17 +174,17 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 179.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 11.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pdt",
-      "prix": 19.99
+      "prix": 1.49
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,12 +194,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 7.99
+      "prix": 0.95
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "salade",
-      "prix": 1.99
+      "prix": 0.95
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,12 +209,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 179.99
+      "prix": 0.95
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poivrons",
-      "prix": 9.99
+      "prix": 14.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -269,7 +269,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 4.39
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
