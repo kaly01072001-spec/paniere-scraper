@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:24:25.141836+00:00",
+  "generated_at": "2026-10-29T08:27:17.330182+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 9.99
+      "prix": 18.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -99,12 +99,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 7.99
+      "prix": 6.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sucre",
-      "prix": 34.99
+      "prix": 12.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -179,7 +179,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 1.49
+      "prix": 1.64
     },
     {
       "magasin_id": "lidl-loos",
@@ -309,7 +309,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "vaisselle",
-      "prix": 9.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 87.99
+      "prix": 9.99
     }
   ]
 }
