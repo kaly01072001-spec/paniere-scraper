@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:18:00.671974+00:00",
+  "generated_at": "2026-11-03T09:29:36.387706+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 9.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -44,12 +44,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "creme",
-      "prix": 21.99
+      "prix": 81.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "fromage-blanc",
-      "prix": 2.39
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -64,7 +64,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "riz",
-      "prix": 14.99
+      "prix": 19.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -114,7 +114,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-moulu",
-      "prix": 7.99
+      "prix": 20.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -134,7 +134,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cereales",
-      "prix": 9.99
+      "prix": 0.98
     },
     {
       "magasin_id": "lidl-loos",
@@ -244,7 +244,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dinde",
-      "prix": 6.99
+      "prix": 11.99
     },
     {
       "magasin_id": "lidl-loos",
