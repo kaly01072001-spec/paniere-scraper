@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T09:38:08.591843+00:00",
+  "generated_at": "2026-11-11T09:25:37.234921+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -119,7 +119,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "the",
-      "prix": 67.99
+      "prix": 21.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 239.99
+      "prix": 219.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,7 +174,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 24.99
+      "prix": 2.29
     },
     {
       "magasin_id": "lidl-loos",
@@ -214,7 +214,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "poivrons",
-      "prix": 38.99
+      "prix": 1.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -264,7 +264,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 179.99
+      "prix": 35.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -324,7 +324,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 23.99
+      "prix": 9.99
     }
   ]
 }
