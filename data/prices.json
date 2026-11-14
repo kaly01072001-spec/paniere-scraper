@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:34:22.846838+00:00",
+  "generated_at": "2026-11-14T08:58:29.038925+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -34,7 +34,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oeufs",
-      "prix": 26.99
+      "prix": 32.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -59,12 +59,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-spag",
-      "prix": 58.99
+      "prix": 9.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "riz",
-      "prix": 14.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -79,7 +79,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "sel",
-      "prix": 21.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -99,7 +99,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "thon",
-      "prix": 6.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -154,7 +154,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 34.99
+      "prix": 2.09
     },
     {
       "magasin_id": "lidl-loos",
@@ -174,12 +174,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pommes",
-      "prix": 2.29
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "bananes",
-      "prix": 179.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -189,12 +189,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "oignons",
-      "prix": 1.79
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 27.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 179.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -269,7 +269,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "legumes-surg",
-      "prix": 4.99
+      "prix": 7.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -299,7 +299,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-grains",
-      "prix": 54.99
+      "prix": 59.99
     },
     {
       "magasin_id": "lidl-loos",
