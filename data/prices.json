@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T09:26:43.776074+00:00",
+  "generated_at": "2026-11-17T10:34:15.444417+00:00",
   "prices": [
     {
       "magasin_id": "lidl-loos",
@@ -24,7 +24,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "beurre-doux",
-      "prix": 0.38
+      "prix": 13.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -59,7 +59,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pates-spag",
-      "prix": 13.99
+      "prix": 58.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -139,7 +139,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "miel",
-      "prix": 219.99
+      "prix": 13.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -154,12 +154,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "pain-complet",
-      "prix": 2.09
+      "prix": 34.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "croissants",
-      "prix": 0.38
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -194,7 +194,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "carottes",
-      "prix": 27.99
+      "prix": 24.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -209,7 +209,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "courgettes",
-      "prix": 5.95
+      "prix": 154.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -234,7 +234,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "saucisses",
-      "prix": 58.99
+      "prix": 17.59
     },
     {
       "magasin_id": "lidl-loos",
@@ -254,7 +254,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cabillaud",
-      "prix": 49.99
+      "prix": 17.59
     },
     {
       "magasin_id": "lidl-loos",
@@ -264,7 +264,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "frites",
-      "prix": 32.39
+      "prix": 179.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -299,7 +299,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "cafe-grains",
-      "prix": 43.99
+      "prix": 39.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -309,7 +309,7 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "vaisselle",
-      "prix": 9.99
+      "prix": 13.99
     },
     {
       "magasin_id": "lidl-loos",
@@ -319,12 +319,12 @@
     {
       "magasin_id": "lidl-loos",
       "produit_id": "dentifrice",
-      "prix": 15.99
+      "prix": 21.99
     },
     {
       "magasin_id": "lidl-loos",
       "produit_id": "gel-douche",
-      "prix": 58.99
+      "prix": 13.99
     }
   ]
 }
